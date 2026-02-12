@@ -1,0 +1,12 @@
+<%
+toppings = ["Pepperoni", "Honey Butter Fried Chicken","Sausage and Onions"]
+%>
+
+<h1>Pizza!!!</h1>
+<p>We have a lot of delicious pizzas.</p>
+
+<ul>
+  <% for topping in toppings %>
+    <li><%= topping %></li>
+  <% end %>
+</ul>
